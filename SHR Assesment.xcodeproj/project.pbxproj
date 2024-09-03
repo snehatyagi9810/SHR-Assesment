@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2029AA9A2C86594700C9813C /* NewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2029AA992C86594700C9813C /* NewTableViewCell.xib */; };
+		2029AA9B2C86594700C9813C /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029AA982C86594700C9813C /* NewTableViewCell.swift */; };
+		2029AA9E2C87464900C9813C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2029AA9D2C87464900C9813C /* SDWebImage */; };
+		2029AAA02C87464900C9813C /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2029AA9F2C87464900C9813C /* SDWebImageMapKit */; };
 		206C0F262C7F5692008F43EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C0F252C7F5692008F43EE /* AppDelegate.swift */; };
 		206C0F282C7F5692008F43EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C0F272C7F5692008F43EE /* SceneDelegate.swift */; };
 		206C0F2A2C7F5692008F43EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C0F292C7F5692008F43EE /* ViewController.swift */; };
 		206C0F2D2C7F5692008F43EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 206C0F2C2C7F5692008F43EE /* Base */; };
 		206C0F2F2C7F5694008F43EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206C0F2E2C7F5694008F43EE /* Assets.xcassets */; };
 		206C0F322C7F5694008F43EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 206C0F312C7F5694008F43EE /* Base */; };
+		206C0F3E2C808A57008F43EE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C0F3D2C808A57008F43EE /* DataModel.swift */; };
+		207F29AE2C85E2A600E33267 /* BodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207F29AD2C85E2A600E33267 /* BodyModel.swift */; };
+		207F29B02C85E3BF00E33267 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207F29AF2C85E3BF00E33267 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2029AA982C86594700C9813C /* NewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
+		2029AA992C86594700C9813C /* NewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTableViewCell.xib; sourceTree = "<group>"; };
 		206C0F222C7F5692008F43EE /* SHR Assesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHR Assesment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		206C0F252C7F5692008F43EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206C0F272C7F5692008F43EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		206C0F2E2C7F5694008F43EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206C0F312C7F5694008F43EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206C0F332C7F5694008F43EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206C0F3D2C808A57008F43EE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		207F29AD2C85E2A600E33267 /* BodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyModel.swift; sourceTree = "<group>"; };
+		207F29AF2C85E3BF00E33267 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2029AAA02C87464900C9813C /* SDWebImageMapKit in Frameworks */,
+				2029AA9E2C87464900C9813C /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,11 @@
 				206C0F252C7F5692008F43EE /* AppDelegate.swift */,
 				206C0F272C7F5692008F43EE /* SceneDelegate.swift */,
 				206C0F292C7F5692008F43EE /* ViewController.swift */,
+				207F29AF2C85E3BF00E33267 /* ApiManager.swift */,
+				206C0F3D2C808A57008F43EE /* DataModel.swift */,
+				207F29AD2C85E2A600E33267 /* BodyModel.swift */,
+				2029AA982C86594700C9813C /* NewTableViewCell.swift */,
+				2029AA992C86594700C9813C /* NewTableViewCell.xib */,
 				206C0F2B2C7F5692008F43EE /* Main.storyboard */,
 				206C0F2E2C7F5694008F43EE /* Assets.xcassets */,
 				206C0F302C7F5694008F43EE /* LaunchScreen.storyboard */,
@@ -83,6 +102,10 @@
 			dependencies = (
 			);
 			name = "SHR Assesment";
+			packageProductDependencies = (
+				2029AA9D2C87464900C9813C /* SDWebImage */,
+				2029AA9F2C87464900C9813C /* SDWebImageMapKit */,
+			);
 			productName = "SHR Assesment";
 			productReference = 206C0F222C7F5692008F43EE /* SHR Assesment.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 206C0F192C7F5692008F43EE;
+			packageReferences = (
+				2029AA9C2C87464900C9813C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 206C0F232C7F5692008F43EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				206C0F2F2C7F5694008F43EE /* Assets.xcassets in Resources */,
+				2029AA9A2C86594700C9813C /* NewTableViewCell.xib in Resources */,
 				206C0F322C7F5694008F43EE /* Base in Resources */,
 				206C0F2D2C7F5692008F43EE /* Base in Resources */,
 			);
@@ -138,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206C0F3E2C808A57008F43EE /* DataModel.swift in Sources */,
 				206C0F2A2C7F5692008F43EE /* ViewController.swift in Sources */,
+				207F29B02C85E3BF00E33267 /* ApiManager.swift in Sources */,
 				206C0F262C7F5692008F43EE /* AppDelegate.swift in Sources */,
 				206C0F282C7F5692008F43EE /* SceneDelegate.swift in Sources */,
+				2029AA9B2C86594700C9813C /* NewTableViewCell.swift in Sources */,
+				207F29AE2C85E2A600E33267 /* BodyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVX54XCJ2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SHR Assesment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVX54XCJ2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SHR Assesment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -361,6 +394,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2029AA9C2C87464900C9813C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2029AA9D2C87464900C9813C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2029AA9C2C87464900C9813C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2029AA9F2C87464900C9813C /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2029AA9C2C87464900C9813C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 206C0F1A2C7F5692008F43EE /* Project object */;
 }
